@@ -1,0 +1,51 @@
+body {
+  background: url("./assets/home/background-home-desktop.jpg") no-repeat;
+  background-size: 100%;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px 40px;
+}
+
+.current {
+  border-bottom: 2px solid var(--white);
+}
+
+.navbar,
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar hr {
+  width: 40%;
+  height: 1px;
+  background-color: var(--white);
+  border: none;
+}
+
+.navbar ul {
+  list-style: none;
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  width: 50%;
+}
+
+.navbar ul li {
+  margin-right: 10px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.navbar ul li a {
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2.7;
+}
